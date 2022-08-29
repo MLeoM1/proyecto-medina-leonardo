@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #edeeee;
+}
+.logo{
+    height: 75px;
+}
+.d-flex{
+    margin: 5px 5px 5px 5px;
+}
+.carousel-inner{
+    width: auto;
+}
+.nav-link:hover{
+    background-color: #a2e3c4;
+}
+.logo2{
+    width: 40px;
+    text-decoration: none;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.section2{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.tarjeta{
+    width: 70%;
+    margin: 5px;
+    border: #a2e3c4 solid 3px;
+    border-radius: 10px;
+    transition: transform .1s; 
+}
+.tarjeta:hover{
+    transform: scale(0.95); 
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+.card{
+    margin: 15px;
+    height: auto;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+.img2{
+    padding: 15%;
+    height: 230px;
+    color: blue;
+}
+.img2:hover{
+    background-color: #a2e3c4;
+
+}
+.wp{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 750px;
+    right: 0%;
+}
