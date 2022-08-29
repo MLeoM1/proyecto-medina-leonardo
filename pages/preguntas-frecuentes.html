@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mlemo - Inicio</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="images/mlemo-logo.jpg" type="image/x-icon">
+    <title>Mlemo - FaQ</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/mlemo-logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">   
   </head>
@@ -14,8 +14,8 @@
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">
-          <img class="logo" src="./images/mlemo-logo.jpg" alt="logo">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../images/mlemo-logo.jpg" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,19 +23,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./pages/tarjeta.html">Tarjeta</a>
+              <a class="nav-link active" aria-current="page" href="../pages/tarjeta.html">Tarjeta</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./pages/envios.html">Envios</a>
+              <a class="nav-link active" aria-current="page" href="../pages/envios.html">Envios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./pages/sobre-nosotros.html">Sobre nosotros</a>
+              <a class="nav-link active" aria-current="page" href="../pages/sobre-nosotros.html">Sobre nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./pages/sobre-nosotros.html">Preguntas frecuentes</a>
+              <a class="nav-link active" aria-current="page" href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./pages/contactanos.html">Contactanos</a>
+              <a class="nav-link active" aria-current="page" href="../pages/contactanos.html">Contactanos</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -49,18 +49,80 @@
     </nav>
   </header>
     <section class="titulo1">
-      <h1>Inicio</h1>
+      <h1>FaQ</h1>
     </section>
     <section class="section1">
       <h1>Mlemo</h1>
-      <h3>Descarga nuestra app:</h3>
-      <form class="d-flex">
-        <button class="btn btn-outline-success" type="submit">Descargar</button>
-      </form>
+      <h3>¿Tenés alguna duda?</h3>
     </section>
     <section class="section2">
-      <h4>Proximamente:</h4>
-      <img src="./images/tarjeta.png" class="tarjeta" alt="tarjeta">
+      <div class="accordion accordion-flush container" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Pregunta 1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Pregunta 2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Pregunta 3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <h5 class="texto2">Otras preguntas:</h5>
+      <div class="accordion accordion-flush container" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Pregunta 4
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Pregunta 5
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Pregunta 6
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="section4">
       <h4 class="texto1">Lorem ipsum dolor sit amet.</h4>
@@ -94,7 +156,7 @@
     </section>
     <div>
       <a href="https://www.whatsapp.com/?lang=es">
-          <img class="wp" src="./images/logo-wp.png" alt="logo whatsapp">
+          <img class="wp" src="../images/logo-wp.png" alt="logo whatsapp">
       </a>
     </div>
 
@@ -105,13 +167,13 @@
       </div>
       <div>
         <a href="https://www.whatsapp.com/" class="me-4 text-reset">
-          <img class="logo2" src="./images/logo-wp.png" alt="Whatssapp">
+          <img class="logo2" src="../images/logo-wp.png" alt="Whatssapp">
         </a>
         <a href="https://es-la.facebook.com/" class="me-4 text-reset">
-          <img class="logo2" src="./images/logo-facebook.png" alt="Facebook">
+          <img class="logo2" src="../images/logo-facebook.png" alt="Facebook">
         </a>
         <a href="https://www.instagram.com/" class="me-4 text-reset">
-          <img class="logo2" src="./images/logo-instagram.jpg" alt="instagram">
+          <img class="logo2" src="../images/logo-instagram.jpg" alt="instagram">
         </a>
       </div>
     </section>
